@@ -1,3 +1,4 @@
+# https://neps.academy/br/exercise/1486
 N = int(input())
 digitos = []
 

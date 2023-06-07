@@ -1,6 +1,6 @@
-from time import time
+# from time import time
 
-initial = time()
+# initial = time()
 
 S, T = map(int, input().split())
 
@@ -42,7 +42,7 @@ for _, sequencia in enumerate(sequencias):
     if verifica_sequencia(*sequencia, grafo):
         quantidades_possiveis += 1
 
-final = time()
+# final = time()
 
 print(quantidades_possiveis)
-print(f"tempo total de {final - initial}s")
+# print(f"tempo total de {final - initial}s")

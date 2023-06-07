@@ -1,3 +1,5 @@
+# https://neps.academy/br/exercise/165
+
 """
 podemos percorrer a sequência de números e verificar as diferenças entre números consecutivos. 
 Se a diferença entre dois números não for igual à diferença entre os números anteriores, então temos uma nova escadinha.
@@ -19,9 +21,10 @@ def escadinha(N: int, sequência: list[int]):
     return quantidade_de_escadinhas_encontradas
 
 
-N = int(input())
-sequência = list(map(int, input().split()))
+if __name__ == "__main__":
+    N = int(input())
+    sequencia = list(map(int, input().split()))
 
-resultado = escadinha(N, sequência)
+    resultado = escadinha(N, sequencia)
 
-print(resultado)
+    print(resultado)

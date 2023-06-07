@@ -1,3 +1,4 @@
+# https://neps.academy/br/exercise/824
 N, M = list(map(int, input().split()))
 I, R = list(map(int, input().split()))
 

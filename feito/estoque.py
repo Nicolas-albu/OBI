@@ -14,8 +14,9 @@ P = int(input())
 
 for _ in range(P):
     I, J = map(int, input().split())
-    I -= 1
-    J -= 1
+    I, J = I - 1, J - 1
+    # I -= 1
+    # J -= 1
 
     if matriz[I][J] != 0:
         matriz[I][J] -= 1

@@ -1,3 +1,4 @@
+# https://neps.academy/br/exercise/602
 N: int = int(input())
 divisoes: list[int] = list(map(int, input().split()))
 # divisoes = map(int, input().split())

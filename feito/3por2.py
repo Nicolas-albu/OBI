@@ -1,3 +1,4 @@
+# https://neps.academy/br/exercise/975
 N = int(input())
 
 precos = sorted([int(input()) for _ in range(N)], reverse=True)
